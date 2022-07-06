@@ -1,8 +1,17 @@
+import './App.css';
+import Header from './Components/header';
+import AddTask from './Components/addTask';
+import PomodoroApp from './Components/pomodoroApp';
 
 
 function App() {
   return (
-      <div>Spartan Pomodoro</div>
+    <main>
+    <Header/>
+    <AddTask/>
+    <PomodoroApp/>
+
+    </main>
   );
 }
 
