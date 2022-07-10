@@ -1,6 +1,11 @@
-const ControlButton = ()=>{
+import '../stylesheets/controlButton.css'
+
+const ControlButton = ({ icon })=>{
     return(
-        <button>x</button>
+        <div className="control-button-container">
+            {icon}
+        </div>
+        
 
 )}
 

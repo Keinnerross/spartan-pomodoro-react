@@ -1,6 +1,11 @@
+import '../stylesheets/playButton.css';
+import { AiFillCaretRight } from "react-icons/ai";
+
 const PlayButton = ()=>{
     return(
-        <button>'a'</button>
+        <div className='play-button-container'>
+        <AiFillCaretRight size={'40px'} className='play-button'/>
+        </div>
 
 )}
 

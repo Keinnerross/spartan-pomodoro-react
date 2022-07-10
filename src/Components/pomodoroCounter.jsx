@@ -1,3 +1,5 @@
+import '../stylesheets/pomodoroCounter.css'
+
 const PomodoroCounter = () =>{
     return(
         <div className="pomodoro-counter-container">

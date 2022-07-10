@@ -6,6 +6,9 @@ import ControlButton from './Components/controlButton';
 import PlayButton from './Components/playButton';
 import PomodoroCounter from './Components/pomodoroCounter';
 import CompletedTask from './Components/completedTask';
+import { AiOutlineReload } from 'react-icons/ai';
+import { FaSquare } from 'react-icons/fa';
+
 
 
 
@@ -16,9 +19,11 @@ function App() {
     <AddTask/>
     <PomodoroApp/>
     <PomodoroCounter/>
-    <ControlButton/>
-    <PlayButton/>
-    <ControlButton/>
+    <div className='pomodoro-button'>
+      <ControlButton icon={ <AiOutlineReload size={'20px'}/> }/>
+      <PlayButton />
+      <ControlButton icon={<FaSquare size={'15px'}/>}/>
+    </div>
     <CompletedTask/>
 
     </main>

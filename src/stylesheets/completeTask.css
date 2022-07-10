@@ -1,0 +1,15 @@
+.completed-task-main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-section{
+    width: 400px;
+    text-align: left;
+}
+
+.task-section span{
+    font-weight: 500;
+    font-size: 20px;
+}

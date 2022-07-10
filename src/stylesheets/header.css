@@ -1,45 +1,49 @@
-.header-container{
-        margin: 30px;
-}
 
 .header-grid{
     width: 40%;
     height: 50px;
     display: grid;
-    grid-template-columns: 30% 60% 10%;
+    grid-template-columns: 20% 55% 25%;
     margin: 0 auto;
     
 }
 
-.logo{
+.logo-container{
     grid-column: 1;
+    cursor: pointer;
     
 }
-.logo{
-    padding: 15px;
-    width: 20px;
-    height: 20px;
-    cursor: pointer;
-}
-.logo-container::after{
-    content: "Spartan";
-    color: white;
-}
 
+.logo{
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
 .settings-container{
     width: 100%;
     grid-column: 3;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
-.settings{
-    background-color: blue;
-    background-image: url('../../../../Heros/2effb763a474cc9043b71d43fef29c71.jpg');
-    background-size: contain;
-    margin: 15px;
-    width: 20px;
-    height: 20px;
+.button-settings-container{
+    width: 80%;
+    min-width: 110px;
+    height: 80%;
+    border-radius: 7px;
+    background-color: rgba(103, 103, 103, .6);
+    display: flex;
     cursor: pointer;
-   
-    
+    justify-content: center;
+    align-items: center;
+}
+
+.button-settings-container span{
+    font-weight: 600;
+    margin-left: 5px;
 }

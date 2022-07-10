@@ -1,0 +1,14 @@
+.play-button-container{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-red);
+    margin: 0 40px 0 40px;
+    cursor: pointer;
+}
+.play-button{
+    margin-left: 5px;
+}
