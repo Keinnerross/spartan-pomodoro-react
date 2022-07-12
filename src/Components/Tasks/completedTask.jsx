@@ -1,4 +1,5 @@
-import '../stylesheets/completeTask.css'
+import '../../stylesheets/completeTask.css';
+import Task from './task';
 
 const CompletedTask = ()=>{
     return(
@@ -7,12 +8,11 @@ const CompletedTask = ()=>{
                 <span>Tasks Finished</span>
                 <hr></hr>
                 <div className="completed-task-container">
-                    <li>Tarea 1</li>
-                    <li>Tarea 2</li>
-                    <li>Tarea 3</li>
-                    <li>Tarea 4</li>
-                    <li>Tarea 5</li>
-
+                    <Task
+                        title = 'Holaxd'
+                    />
+                   
+                
                 </div>
             </div>
         </div>

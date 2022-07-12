@@ -1,4 +1,4 @@
-import '../stylesheets/controlButton.css'
+import '../../stylesheets/controlButton.css'
 
 const ControlButton = ({ icon })=>{
     return(

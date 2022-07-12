@@ -1,4 +1,4 @@
-import '../stylesheets/playButton.css';
+import '../../stylesheets/playButton.css'
 import { AiFillCaretRight } from "react-icons/ai";
 
 const PlayButton = ()=>{

@@ -1,4 +1,4 @@
-import '../stylesheets/pomodoroCounter.css'
+import '../../stylesheets/pomodoroCounter.css'
 
 const PomodoroCounter = () =>{
     return(

@@ -4,15 +4,16 @@
 
 .input-container{
     display: flex;
-    margin: 5px 0 30px 0;
+    margin: 5px 0 20px 0;
     align-items: center;
     justify-content: center;
+    
 }
 
 .input-task{
     width: auto;
-    max-width: 200px;
-    margin-left: 32px;
+    max-width: 250px;
+    margin: 7px 0 0 32px;
     color: white;
     font-weight: 600;
     font-size: 24px;
@@ -20,6 +21,9 @@
     border: 0;
     background-color: transparent;
     text-align: center;
+    background-color: #233c51;
+    border-radius: 7px;
+    padding: 5px;
 
 }
 .input-task::placeholder{

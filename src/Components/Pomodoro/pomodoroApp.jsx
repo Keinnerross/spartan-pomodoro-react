@@ -1,6 +1,6 @@
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
-import '../stylesheets/pomodoroApp.css'
+import '../../stylesheets/pomodoroApp.css'
 
 const PomodoroApp = () =>{
     return(
