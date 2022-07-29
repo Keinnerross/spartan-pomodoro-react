@@ -4,10 +4,10 @@ const Task =  ({ id, title, completed, completedTask, delateTask }) =>{
     return(
         <div className={completed ? 'task-container completed' :
         'task-container'}>
-            <div className='title-task'>
+            <div className='title-task' onClick={()=> completedTask(id)}>
                 {title}
             </div>
-            <div className='task-icon-container'>x</div>
+            <div className='task-icon-container' onClick={()=> delateTask(id)}>x</div>
         </div>
      
     )
