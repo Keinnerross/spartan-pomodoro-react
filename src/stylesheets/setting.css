@@ -1,0 +1,70 @@
+.setting-menu-container{
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.setting-menu{
+    background-color: white;
+    width: 420px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.setting-container-margin{
+    width: 90%;
+    
+    
+}
+
+h3{
+    color: black;
+}
+
+.time-settings{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.input-setting{
+    width: 110px;
+    height: 30px;
+}
+
+.long-break-interval{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.input-long-break{
+    width: 70px;
+    height: 20px;
+}
+
+.alarm-sound{
+    display: flex;
+    justify-content: space-between;
+}
+
+.select-sound{
+    width: 70px;
+    height: 20px;
+}
+
+.save-setting-section{
+    width: 100%;
+    background-color: lightgray;
+    
+}
+
+.button-setting-container{
+    width: 95%;
+    display: flex;
+    justify-content: end;
+}
